@@ -1,0 +1,151 @@
+{
+    "info": {
+        "_postman_id": "27001c97-bdda-46fd-bf5d-c1a653380b47",
+        "name": "runeterra",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Sample endpoint: Returns details about a particular user",
+            "id": "bb9e2729-7ace-47d1-9cf3-aed029e5f098",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{baseUrl}}/user?id=19360459",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "user"
+                    ],
+                    "query": [
+                        {
+                            "key": "id",
+                            "value": "19360459",
+                            "description": "(Required) ID of the user"
+                        }
+                    ]
+                }
+            },
+            "response": [
+                {
+                    "id": "a42cb1d9-20e5-4a15-891a-b2790cb3265a",
+                    "name": "Sample response: Details about a user by ID",
+                    "originalRequest": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "description": "Added as a part of security scheme: basic",
+                                "key": "Authorization",
+                                "value": "Basic <credentials>"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{baseUrl}}/user?id=19360459",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "user"
+                            ],
+                            "query": [
+                                {
+                                    "key": "id",
+                                    "value": "19360459"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "disabled": false,
+                            "description": "A link to the next page of responses",
+                            "key": "x-next",
+                            "value": "tempor dolor ut in"
+                        },
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n  \"id\": -41917639,\n  \"name\": \"exercitation\",\n  \"tag\": \"pr\"\n}"
+                },
+                {
+                    "id": "0f1c4b62-a0e9-485a-bdce-997e8acebfab",
+                    "name": "Unexpected error",
+                    "originalRequest": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "description": "Added as a part of security scheme: basic",
+                                "key": "Authorization",
+                                "value": "Basic <credentials>"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{baseUrl}}/user?id=19360459",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "user"
+                            ],
+                            "query": [
+                                {
+                                    "key": "id",
+                                    "value": "19360459"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "Internal Server Error",
+                    "code": 500,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n  \"code\": -94448797,\n  \"message\": \"aliquip in laborum\"\n}"
+                }
+            ]
+        }
+    ],
+    "auth": {
+        "type": "basic",
+        "basic": [
+            {
+                "key": "username",
+                "value": "<Basic Auth Username>",
+                "type": "string"
+            },
+            {
+                "key": "password",
+                "value": "<Basic Auth Password>",
+                "type": "string"
+            }
+        ]
+    },
+    "variable": [
+        {
+            "id": "895c33ab-a340-4ab2-bd2c-92ed36687d27",
+            "key": "baseUrl",
+            "value": "localhost:3000",
+            "type": "string"
+        }
+    ]
+}
