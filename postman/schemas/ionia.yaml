@@ -9,7 +9,7 @@ servers:
 paths:
   /user:
     get:
-      summary: 'REMEMBER!!!!'
+      summary: 'IONIA CALLS!!!'
       operationId: listUser
       tags:
         - user
