@@ -1,13 +1,13 @@
 {
     "info": {
-        "_postman_id": "8c1914ca-83ba-44fa-9cd1-3adefe35d4b5",
-        "name": "yasuo",
+        "_postman_id": "6e0796d7-fc2b-41b4-8661-af0a6c2d14a3",
+        "name": "irelia",
         "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
     },
     "item": [
         {
             "name": "Sample endpoint: Returns details about a particular user",
-            "id": "c16da304-14a7-4b06-aa15-b5881efb26b8",
+            "id": "ed6f8bd0-9fd3-4b06-891f-8ea391b60245",
             "request": {
                 "method": "GET",
                 "header": [
@@ -17,7 +17,7 @@
                     }
                 ],
                 "url": {
-                    "raw": "{{baseUrl}}/user?id=-77832185",
+                    "raw": "{{baseUrl}}/user?id=-11701687",
                     "host": [
                         "{{baseUrl}}"
                     ],
@@ -27,7 +27,7 @@
                     "query": [
                         {
                             "key": "id",
-                            "value": "-77832185",
+                            "value": "-11701687",
                             "description": "(Required) ID of the user"
                         }
                     ]
@@ -35,7 +35,7 @@
             },
             "response": [
                 {
-                    "id": "084e214f-77cc-4704-877a-8667734d7d86",
+                    "id": "4c7a54ac-8dca-4804-a5a1-36fa2411c27d",
                     "name": "Sample response: Details about a user by ID",
                     "originalRequest": {
                         "method": "GET",
@@ -47,7 +47,7 @@
                             }
                         ],
                         "url": {
-                            "raw": "{{baseUrl}}/user?id=-77832185",
+                            "raw": "{{baseUrl}}/user?id=-11701687",
                             "host": [
                                 "{{baseUrl}}"
                             ],
@@ -57,7 +57,7 @@
                             "query": [
                                 {
                                     "key": "id",
-                                    "value": "-77832185"
+                                    "value": "-11701687"
                                 }
                             ]
                         }
@@ -70,7 +70,7 @@
                             "disabled": false,
                             "description": "A link to the next page of responses",
                             "key": "x-next",
-                            "value": "Lorem dolore quis occaecat laboris"
+                            "value": "ea esse"
                         },
                         {
                             "key": "Content-Type",
@@ -79,10 +79,10 @@
                     ],
                     "cookie": [],
                     "responseTime": null,
-                    "body": "{\n  \"id\": 60837313,\n  \"name\": \"ipsum laborum\",\n  \"tag\": \"mollit labore repre\"\n}"
+                    "body": "{\n  \"id\": 97049712,\n  \"name\": \"mollit in consectetur\",\n  \"tag\": \"incididunt\"\n}"
                 },
                 {
-                    "id": "8fa23f7e-3dc9-4671-9d95-735af1df7fe9",
+                    "id": "c41c9662-2bd8-4710-8805-d584d079f6ec",
                     "name": "Unexpected error",
                     "originalRequest": {
                         "method": "GET",
@@ -94,7 +94,7 @@
                             }
                         ],
                         "url": {
-                            "raw": "{{baseUrl}}/user?id=-77832185",
+                            "raw": "{{baseUrl}}/user?id=-11701687",
                             "host": [
                                 "{{baseUrl}}"
                             ],
@@ -104,7 +104,7 @@
                             "query": [
                                 {
                                     "key": "id",
-                                    "value": "-77832185"
+                                    "value": "-11701687"
                                 }
                             ]
                         }
@@ -120,7 +120,7 @@
                     ],
                     "cookie": [],
                     "responseTime": null,
-                    "body": "{\n  \"code\": 97957343,\n  \"message\": \"sint consectetur\"\n}"
+                    "body": "{\n  \"code\": -67267958,\n  \"message\": \"culpa esse occaecat\"\n}"
                 }
             ]
         }
@@ -142,7 +142,7 @@
     },
     "variable": [
         {
-            "id": "1dc2ffa3-7c54-4fba-a0b6-e66e36ec2eb7",
+            "id": "a5606c04-a349-45e5-a6d4-5e97fb781e75",
             "key": "baseUrl",
             "value": "localhost:3000",
             "type": "string"
