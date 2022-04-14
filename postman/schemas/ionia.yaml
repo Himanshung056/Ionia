@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   version: '1.0'
-  title: 'Runeterra 1asds2345'
+  title: 'Runeterra'
   license:
     name: MIT
 servers:
