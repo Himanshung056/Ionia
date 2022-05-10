@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "58190a7b-c60f-4041-ac9b-fadc60a17ac2",
+		"name": "1.0.0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get",
+			"id": "358165b7-0117-46d8-91f4-189d1fc06b48",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseUrl}}/get/1234",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"get",
+						"1234"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "1234",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "37d220ac-1c77-4779-9bb8-ebd6722a05f5",
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/get/{{key}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"get",
+								"{{key}}"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": "Text",
+					"header": [],
+					"cookie": [],
+					"responseTime": null,
+					"body": "hello"
+				}
+			]
+		},
+		{
+			"name": "get1",
+			"id": "3555a07f-8369-4ab5-b54b-8e1cb46f0571",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/get1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"get1"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "5120eded-adab-4686-9c92-175d2c0c36de",
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/get1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"get1"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": "Text",
+					"header": [],
+					"cookie": [],
+					"responseTime": null,
+					"body": "bye"
+				}
+			]
+		}
+	]
+}
