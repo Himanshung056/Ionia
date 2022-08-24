@@ -1,14 +1,14 @@
 {
 	"info": {
-		"_postman_id": "52ecc21f-9a88-4c81-b0bf-7114b5f2ad1c",
-		"name": "Legends of runeterra 1Legends of runeterra 1Legends of runeterra 1Legends of runeterra 1Legends of runeterra 1",
+		"_postman_id": "6065451d-390c-4b5a-a168-f753844b7d5f",
+		"name": "Karma-222",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "452504-52ecc21f-9a88-4c81-b0bf-7114b5f2ad1c"
+		"_uid": "452504-6065451d-390c-4b5a-a168-f753844b7d5f"
 	},
 	"item": [
 		{
 			"name": "Sample endpoint: Returns details about a particular user",
-			"id": "1079c065-17f4-4858-bc59-3ab12d9d0f2b",
+			"id": "0b9c9aa4-1f2c-4eea-b9b1-5ee415b176e0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -21,7 +21,7 @@
 					}
 				],
 				"url": {
-					"raw": "{{baseUrl}}/user?id=19360459",
+					"raw": "{{baseUrl}}/user?id=26123348",
 					"host": [
 						"{{baseUrl}}"
 					],
@@ -31,7 +31,7 @@
 					"query": [
 						{
 							"key": "id",
-							"value": "19360459",
+							"value": "26123348",
 							"description": "(Required) ID of the user"
 						}
 					]
@@ -39,7 +39,7 @@
 			},
 			"response": [
 				{
-					"id": "f3d379cb-d796-4814-b21f-990b2ac3e2aa",
+					"id": "729a7fc0-5d54-4967-b18a-722ee48a67c6",
 					"name": "Sample response: Details about a user by ID",
 					"originalRequest": {
 						"method": "GET",
@@ -51,7 +51,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/user?id=19360459",
+							"raw": "{{baseUrl}}/user?id=26123348",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -61,7 +61,7 @@
 							"query": [
 								{
 									"key": "id",
-									"value": "19360459"
+									"value": "26123348"
 								}
 							]
 						}
@@ -74,7 +74,7 @@
 							"disabled": false,
 							"description": "A link to the next page of responses",
 							"key": "x-next",
-							"value": "tempor dolor ut in"
+							"value": "quis oc"
 						},
 						{
 							"key": "Content-Type",
@@ -82,10 +82,10 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"id\": -41917639,\n  \"name\": \"exercitation\",\n  \"tag\": \"pr\"\n}"
+					"body": "{\n  \"id\": 66337167,\n  \"name\": \"est anim Duis dolor aliquip\",\n  \"tag\": \"laborum irure aliq\"\n}"
 				},
 				{
-					"id": "6d8bc995-9787-4199-8ec1-2b84fd5d08bc",
+					"id": "68866526-308d-4fce-be4d-f646f26f6cd1",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "GET",
@@ -97,7 +97,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/user?id=19360459",
+							"raw": "{{baseUrl}}/user?id=26123348",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -107,7 +107,7 @@
 							"query": [
 								{
 									"key": "id",
-									"value": "19360459"
+									"value": "26123348"
 								}
 							]
 						}
@@ -122,7 +122,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"code\": -94448797,\n  \"message\": \"aliquip in laborum\"\n}"
+					"body": "{\n  \"code\": 31546298,\n  \"message\": \"velit labore\"\n}"
 				}
 			]
 		}
@@ -144,7 +144,7 @@
 	},
 	"variable": [
 		{
-			"id": "895c33ab-a340-4ab2-bd2c-92ed36687d27",
+			"id": "848b9285-5010-4e86-a48c-0a620be82f42",
 			"key": "baseUrl",
 			"value": "localhost:3000",
 			"type": "string"

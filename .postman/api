@@ -1,0 +1,23 @@
+id = c5989952-e9d1-4551-8872-a0f7f2ab1b70
+
+[relations]
+
+[relations.collections]
+rootDirectory = postman/collections
+files[] = {"id":"58190a7b-c60f-4041-ac9b-fadc60a17ac2","path":"1.0.0_1ff6d675-71f0-455a-851f-c1167fb83010.json","metaData":{}}
+files[] = {"id":"52ecc21f-9a88-4c81-b0bf-7114b5f2ad1c","path":"Legends of runeterra_338c1336-5929-40bf-a953-5c5c277dbad5.json","metaData":{}}
+files[] = {"id":"fa9160d6-23f6-4cbd-9a43-f1ed79bd27cb","path":"shen_f0560458-a8bc-4e9b-9063-42d02b0fc825.json","metaData":{}}
+files[] = {"id":"ad97033f-a3d5-477d-9e29-0b2ffdd29bab","path":"1_452504-ad97033f-a3d5-477d-9e29-0b2ffdd29bab.json","metaData":{}}
+files[] = {"id":"7637828e-3e0a-4c53-afc7-db7c6894bbc6","path":"Karma-222_452504-7637828e-3e0a-4c53-afc7-db7c6894bbc6.json","metaData":{}}
+files[] = {"id":"3dfc9eef-3dd9-44e7-9a10-7a14aac4b9e7","path":"New Collection_452504-3dfc9eef-3dd9-44e7-9a10-7a14aac4b9e7.json","metaData":{}}
+files[] = {"id":"6065451d-390c-4b5a-a168-f753844b7d5f","path":"Karma-222_452504-6065451d-390c-4b5a-a168-f753844b7d5f.json","metaData":{}}
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = postman/schemas
+files[] = {"path":"aa.yaml","metaData":{}}
+files[] = {"path":"ionia.yaml","metaData":{}}
+
+[relations.apiDefinition.metaData]
+type = openapi:3
