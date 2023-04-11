@@ -1,151 +1,154 @@
 {
-    "info": {
-        "_postman_id": "fa9160d6-23f6-4cbd-9a43-f1ed79bd27cb",
-        "name": "shen",
-        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
-    },
-    "item": [
-        {
-            "name": "Sample endpoint: Returns details about a particular user",
-            "id": "47cc17e9-0a88-4e6f-b3d6-d4cdb43215fc",
-            "request": {
-                "method": "GET",
-                "header": [
-                    {
-                        "key": "Accept",
-                        "value": "application/json"
-                    }
-                ],
-                "url": {
-                    "raw": "{{baseUrl}}/user?id=-59303688",
-                    "host": [
-                        "{{baseUrl}}"
-                    ],
-                    "path": [
-                        "user"
-                    ],
-                    "query": [
-                        {
-                            "key": "id",
-                            "value": "-59303688",
-                            "description": "(Required) ID of the user"
-                        }
-                    ]
-                }
-            },
-            "response": [
-                {
-                    "id": "5a36931d-69c4-478b-9711-f3d423d5a12d",
-                    "name": "Sample response: Details about a user by ID",
-                    "originalRequest": {
-                        "method": "GET",
-                        "header": [
-                            {
-                                "description": "Added as a part of security scheme: basic",
-                                "key": "Authorization",
-                                "value": "Basic <credentials>"
-                            }
-                        ],
-                        "url": {
-                            "raw": "{{baseUrl}}/user?id=-59303688",
-                            "host": [
-                                "{{baseUrl}}"
-                            ],
-                            "path": [
-                                "user"
-                            ],
-                            "query": [
-                                {
-                                    "key": "id",
-                                    "value": "-59303688"
-                                }
-                            ]
-                        }
-                    },
-                    "status": "OK",
-                    "code": 200,
-                    "_postman_previewlanguage": "json",
-                    "header": [
-                        {
-                            "disabled": false,
-                            "description": "A link to the next page of responses",
-                            "key": "x-next",
-                            "value": "tempor ad"
-                        },
-                        {
-                            "key": "Content-Type",
-                            "value": "application/json"
-                        }
-                    ],
-                    "cookie": [],
-                    "responseTime": null,
-                    "body": "{\n  \"id\": 85001133,\n  \"name\": \"elit laboris\",\n  \"tag\": \"consectetur sunt eiusmod \"\n}"
-                },
-                {
-                    "id": "3b2a712d-bfad-40e0-80c7-9a434451e443",
-                    "name": "Unexpected error",
-                    "originalRequest": {
-                        "method": "GET",
-                        "header": [
-                            {
-                                "description": "Added as a part of security scheme: basic",
-                                "key": "Authorization",
-                                "value": "Basic <credentials>"
-                            }
-                        ],
-                        "url": {
-                            "raw": "{{baseUrl}}/user?id=-59303688",
-                            "host": [
-                                "{{baseUrl}}"
-                            ],
-                            "path": [
-                                "user"
-                            ],
-                            "query": [
-                                {
-                                    "key": "id",
-                                    "value": "-59303688"
-                                }
-                            ]
-                        }
-                    },
-                    "status": "Internal Server Error",
-                    "code": 500,
-                    "_postman_previewlanguage": "json",
-                    "header": [
-                        {
-                            "key": "Content-Type",
-                            "value": "application/json"
-                        }
-                    ],
-                    "cookie": [],
-                    "responseTime": null,
-                    "body": "{\n  \"code\": 17729504,\n  \"message\": \"tempor dolore ullamco proident\"\n}"
-                }
-            ]
-        }
-    ],
-    "auth": {
-        "type": "basic",
-        "basic": [
-            {
-                "key": "username",
-                "value": "<Basic Auth Username>",
-                "type": "string"
-            },
-            {
-                "key": "password",
-                "value": "<Basic Auth Password>",
-                "type": "string"
-            }
-        ]
-    },
-    "variable": [
-        {
-            "id": "de839fb2-0fdb-432b-96f5-f76926a69bb8",
-            "key": "baseUrl",
-            "value": "localhost:3000",
-            "type": "string"
-        }
-    ]
+	"info": {
+		"_postman_id": "e38b9cd7-c235-4319-945b-acf135ee29b6",
+		"name": "shen",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "3148-e38b9cd7-c235-4319-945b-acf135ee29b6"
+	},
+	"item": [
+		{
+			"name": "Sample endpoint: Returns details about a particular user",
+			"id": "40cd10d9-0342-4d0a-b284-f2fbe25d7e34",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/user?id=-59303688",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"user"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "-59303688",
+							"description": "(Required) ID of the user"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "bb758662-3665-4ac5-9b4b-416508bab081",
+					"name": "Sample response: Details about a user by ID",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "Added as a part of security scheme: basic",
+								"key": "Authorization",
+								"value": "Basic <credentials>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/user?id=-59303688",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"user"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "-59303688"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"disabled": false,
+							"description": "A link to the next page of responses",
+							"key": "x-next",
+							"value": "tempor ad"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n  \"id\": 85001133,\n  \"name\": \"elit laboris\",\n  \"tag\": \"consectetur sunt eiusmod \"\n}"
+				},
+				{
+					"id": "274e4fbe-1c56-476b-a92d-627bcc977bc6",
+					"name": "Unexpected error",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "Added as a part of security scheme: basic",
+								"key": "Authorization",
+								"value": "Basic <credentials>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/user?id=-59303688",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"user"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "-59303688"
+								}
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n  \"code\": 17729504,\n  \"message\": \"tempor dolore ullamco proident\"\n}"
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "username",
+				"value": "<Basic Auth Username>",
+				"type": "string"
+			},
+			{
+				"key": "password",
+				"value": "<Basic Auth Password>",
+				"type": "string"
+			}
+		]
+	},
+	"variable": [
+		{
+			"id": "de839fb2-0fdb-432b-96f5-f76926a69bb8",
+			"key": "baseUrl",
+			"value": "localhost:3000",
+			"type": "string"
+		}
+	]
 }
